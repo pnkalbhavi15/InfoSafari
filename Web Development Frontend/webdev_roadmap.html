@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Treasure Hunt - Web Development</title>
+    <link rel="stylesheet" href="domain_roadmap.css" />
+  </head>
+  <body>
+    <header>
+      <header>
+        <div class="logo">
+          <a href="initial_page.html"
+            ><img src="logo.jpg" alt="Infosafari Logo"
+          /></a>
+        </div>
+        <nav>
+          <ul>
+            <li><a href="homepage.html">Home</a></li>
+            <li><a href="roadmap.html">Roadmap</a></li>
+            <li><a href="mentorDT.html">Mentorship</a></li>
+            <li><a href="#">Resources</a></li>
+            <li><a href="#">News</a></li>
+            <li><a href="contact.html">Contact</a></li>
+          </ul>
+        </nav>
+      </header>
+    </header>
+    <br />
+    <centre><h2>Roadmap - Web Development</h2></centre>
+    <main>
+      <section id="start">
+        <h2>Welcome to the Web Development Treasure Hunt!</h2>
+        <div class="pomodoro">
+          <h1>Pomodoro Timer</h1>
+          <div class="timer">
+            <div class="minutes">25</div>
+            <div class="seconds">00</div>
+          </div>
+          <div class="controls">
+            <button id="start">Start</button>
+            <button id="pause">Pause</button>
+            <button id="reset">Reset</button>
+          </div>
+          <audio id="notification">
+            <source src="notification.mp3" type="audio/mpeg" />
+            Your browser does not support the audio element.
+          </audio>
+        </div>
+        <p>
+          Follow the clues to discover the roadmap and resources for Web
+          Development.
+        </p>
+        <button id="start-button">Start</button>
+      </section>
+      <section id="html">
+        <h2>HTML</h2>
+        <p>
+          Your first clue: "Learn the language for building the foundation of
+          the web."
+        </p>
+        <button id="html-button">Next</button>
+      </section>
+      <section id="css">
+        <h2>CSS</h2>
+        <br />
+        <p>Clue: "Style your web creations beautifully."</p>
+        <button id="css-button">Next</button>
+      </section>
+      <section id="javascript">
+        <h2>JavaScript</h2>
+        <br />
+        <p>Clue: "Make your websites interactive and dynamic."</p>
+        <button id="javascript-button">Next</button>
+      </section>
+      <section id="quiz">
+        <h2>Quiz</h2>
+        <br />
+        <p>Attempt the above Quiz on Web Development.</p>
+        <a href="webdev_quiz.html"
+          ><button id="models-button">Start Quiz</button></a
+        >
+      </section>
+      <section id="resources">
+        <h2>Resources</h2>
+        <br />
+        <p>Here are some resources to continue your learning:</p>
+        <ul>
+          <li><a href="html-resource-link">HTML Tutorial</a></li>
+          <li><a href="css-resource-link">CSS Guide</a></li>
+          <li>
+            <a href="javascript-resource-link">JavaScript Documentation</a>
+          </li>
+        </ul>
+      </section>
+    </main>
+    <footer>
+      <p>&copy; 2023 InfoSafari</p>
+    </footer>
+    <script src="webdev_roadmap.js"></script>
+  </body>
+</html>

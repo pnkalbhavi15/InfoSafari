@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>GIF Alert</title>
+    <link rel="stylesheet" href="popup.css" />
+  </head>
+  <body>
+    <button onclick="showCustomAlert('yes')">YESS</button>
+    <button onclick="showCustomAlert('no')">NOOO</button>
+
+    <div id="custom-alert-yes" class="modal">
+      <div class="modal-content">
+        <span class="close" onclick="closeCustomAlert('yes')">&times;</span>
+        <img src="yay.gif" alt="GIF" />
+        <h1>YAYYYY!!!! CORRECT</h1>
+      </div>
+    </div>
+
+    <div id="custom-alert-no" class="modal">
+      <div class="modal-content">
+        <span class="close" onclick="closeCustomAlert('no')">&times;</span>
+        <img src="oh_noo.gif" alt="GIF" />
+        <h1>TRY AGAIN!!!</h1>
+      </div>
+    </div>
+
+    <script src="popup.js"></script>
+  </body>
+</html>
